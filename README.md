@@ -13,3 +13,10 @@ or, if the myconf.yml is in the current dir :
 ```
 docker run -t -i -v $(pwd)/myconf.yml:/conf/conf.yml maestro start
 ```
+
+What it does is the equivalent of :
+```
+maestro -f /conf/conf.yml <your> <parameters>
+```
+
+Please see https://github.com/signalfuse/maestro-ng for more options/configuration.
