@@ -11,7 +11,7 @@ docker run --rm -t -i -v /fu/bar/myconf.yml:/conf/conf.yml acaranta/dockmaestro 
 ```
 or, if the myconf.yml is in the current dir :
 ```
-docker run rm -t -i -v $(pwd)/myconf.yml:/conf/conf.yml acaranta/dockmaestro <start/stop/status/
+docker run --rm -t -i -v $(pwd)/myconf.yml:/conf/conf.yml acaranta/dockmaestro <start/stop/status/
 clean>
 ```
 
